@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f7f2;
+  color: #2f3b2f;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(120deg, #2e7d32, #66bb6a);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+/* Navbar */
+.navbar {
+  background: #1b5e20;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+.menu a:hover {
+  background: #388e3c;
+}
+
+/* Sections */
+.section {
+  padding: 60px 0;
+}
+
+.section.alt {
+  background-color: #e8f5e9;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #1b5e20;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 250px;
+  background: white;
+  padding: 20px;
+  border-left: 5px solid #2e7d32;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #1b5e20;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #1b5e20;
+  color: white;
+  margin-top: 40px;
+}
